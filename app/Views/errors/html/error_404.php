@@ -70,7 +70,7 @@
 </head>
 <body>
     <div class="wrap">
-        <h1>404</h1>
+        <h1>404 ERROR</h1>
 
         <p>
             <?php if (ENVIRONMENT !== 'production') : ?>
@@ -79,6 +79,8 @@
                 <?= lang('Errors.sorryCannotFind') ?>
             <?php endif; ?>
         </p>
+
+        <a href="<?= site_url('/articles/') ?>"><h3>Back to home page</h3></a>
     </div>
 </body>
 </html>
