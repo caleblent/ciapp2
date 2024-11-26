@@ -6,7 +6,7 @@ use CodeIgniter\Config\BaseConfig;
 
 class Email extends BaseConfig
 {
-    public string $fromEmail  = 'smtp@stcroixwebhosting.com';
+    public string $fromEmail  = 'noreply@stcroixwebhosting.com';
     public string $fromName   = 'CI App 2';
     public string $recipients = '';
 
