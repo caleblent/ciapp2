@@ -21,8 +21,8 @@
 <label for="password">Password</label>
 <input type="password" id="password" name="password">
 
-<label for="password-confirmation">Repeat password</label>
-<input type="password" id="password-confirmation" name="password-confirmation">
+<label for="password_confirmation">Repeat password</label>
+<input type="password" id="password_confirmation" name="password_confirmation">
 
 <button>Save</button>
 
