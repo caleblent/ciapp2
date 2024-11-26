@@ -5,7 +5,7 @@
 <?= $this->section("content") ?>
     <h1>Welcome to the Home page!</h1>
 
-    <a href="<?= url_to("articles") ?>">See articles</a>
+    <h3><a href="<?= url_to("articles") ?>">See articles</a></h3>
 
     <?php if (auth()->loggedIn()): ?>
 
